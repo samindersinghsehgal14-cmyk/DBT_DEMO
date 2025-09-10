@@ -1,3 +1,5 @@
+ {{ config(materialized='table') }}
+
 WITH CTE AS (
 
 SELECT
